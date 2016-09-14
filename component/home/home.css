@@ -1,0 +1,77 @@
+.clearfix:after{
+	content:'';
+	display:block;
+	clear:both;
+	visibility: hidden;
+}
+/*--轮播图--*/
+.showbox{
+	width:100%;
+	height:5rem;
+	overflow: hidden;
+	position: relative;
+}
+.loopbox{
+	width:500%;
+	position: absolute;
+}
+.loopbox img{
+	width:20%;
+	height:100%;
+	float: left;
+}
+/*轮播图上的点*/
+.showbox_bottom{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:0.3rem;
+	line-height: 0.3rem;
+}
+.showbox_bottom .dot{
+	position: absolute;
+	left:4rem;
+	top:-0.2rem;
+}
+.showbox_bottom .dot li{
+	margin: 0 0.3rem;
+	border-radius: 50%;
+	float:left;
+	width:0.2rem;
+	height:0.2rem;
+	background: gray;
+}
+.list{
+	margin-top: 0.5rem;
+	display: flex;
+	justify-content: space-between;
+}
+.list img{
+	width:4.9rem;
+	height:4.9rem;
+	flex: auto;
+}
+/*精彩推荐*/
+p{
+	width:2.5rem;
+	height:1rem;
+	line-height: 1rem;
+	text-align: center;
+	margin: auto;
+	font-size:0.5rem;
+	font-weight: bold;
+	color:red;
+	border-top:1px solid #FF0000;
+	border-bottom:1px solid #FF0000;
+}
+.bottom_list img:first-child{
+	margin-top:0.2rem ;
+}
+.bottom_list img:last-child{
+	height:6rem;
+	margin-bottom: 0.2rem;
+}
+.bottom_list img{
+	width:10rem;
+	height:4rem;
+}
