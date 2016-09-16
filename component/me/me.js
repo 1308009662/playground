@@ -1,4 +1,4 @@
-define(['text!./card.html','css!./card.css'],function(content){
+define(['text!./me.html','css!./me.css'],function(content){
 	function render(){
 		$('#container').html(content);
 	}

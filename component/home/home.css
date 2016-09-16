@@ -7,7 +7,7 @@
 /*--轮播图--*/
 .showbox{
 	width:100%;
-	height:5rem;
+	height:5.5rem;
 	overflow: hidden;
 	position: relative;
 }
@@ -17,13 +17,13 @@
 }
 .loopbox img{
 	width:20%;
-	height:100%;
+	height:5rem;
 	float: left;
 }
 /*轮播图上的点*/
 .showbox_bottom{
 	position:absolute;
-	bottom:0;
+	bottom:-0.3rem;
 	width:100%;
 	height:0.3rem;
 	line-height: 0.3rem;
@@ -42,7 +42,7 @@
 	background: gray;
 }
 .list{
-	margin-top: 0.5rem;
+	margin-top: 0.3rem;
 	display: flex;
 	justify-content: space-between;
 }
@@ -52,7 +52,7 @@
 	flex: auto;
 }
 /*精彩推荐*/
-p{
+.ins{
 	width:2.5rem;
 	height:1rem;
 	line-height: 1rem;
@@ -64,14 +64,14 @@ p{
 	border-top:1px solid #FF0000;
 	border-bottom:1px solid #FF0000;
 }
+.bottom_list img{
+	width:100%;
+	height:4rem;
+}
 .bottom_list img:first-child{
 	margin-top:0.2rem ;
 }
-.bottom_list img:last-child{
-	height:6rem;
-	margin-bottom: 0.2rem;
-}
-.bottom_list img{
+.end{
 	width:10rem;
-	height:4rem;
+	height:2rem;
 }

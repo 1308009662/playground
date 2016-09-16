@@ -6,11 +6,11 @@ define(['touch','text!./home.html','css!./home.css'],function(touch,content){
 	function getData(){
 	 	$.ajax({
 	 		type:'get',
-	 		url:'1.json',
+//	 		url:'1.json',
+	 		url:'http://duif.applinzi.com/leyuan/home_data.php',
 	 		async:true,
 	 		success:function(data){
-//	 			console.log(data);
-	 			setData(data);
+	 			setData(JSON.parse(data));
 	 		},
 	 		error:function(err){
 	 			console.log(err);

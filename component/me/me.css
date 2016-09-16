@@ -1,0 +1,48 @@
+#me_top{
+	width:10rem;
+	height:5rem;
+	background-image: radial-gradient(at bottom,#8c685a,#c4c9c3);
+	position: relative;
+	left:0;
+	top:0;
+}
+#me_top img{
+	position:absolute;
+	right:0.2rem;
+	top:42%;
+}
+#me_photo{
+	width:2.5rem;
+	height:2.5rem;
+	border-radius: 50%;
+	background: #C4C9C3;
+	position: absolute;
+	left:35%;
+	top:15%;
+}
+#me_list{
+	border-top: 1px solid #C4C9C3;
+	margin-top: 0.5rem;
+	background: white;
+	overflow-y: scroll;
+}
+#me_list li{
+	width:9rem;
+	margin: auto;
+	border-bottom: 1px solid #C4C9C3;
+	font-size:0.6rem;
+	height:1.8rem;
+	line-height: 1.8rem;
+	color:#535152;
+}
+#me_list li:last-child{
+	height: 1.7rem;
+	line-height: 1.7rem;
+}
+#me_bottom li span{
+	float:right;
+}
+.end{
+	height:2rem;
+	width:10rem;
+}
